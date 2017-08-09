@@ -36,7 +36,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="Mino">
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="学习分享,编程,机器学习,人工智能,C++,STL,Vector,List">
 
     <!-- Site Verification -->
     
@@ -68,11 +68,11 @@
     <meta property="og:title" content="STL介绍之顺序性容器 | Hexo">
     <meta property="og:image" content="/img/favicon.png" />
     <meta property="og:description" content="">
-    
+    <meta property="og:article:tag" content="C++"> <meta property="og:article:tag" content="STL"> <meta property="og:article:tag" content="Vector"> <meta property="og:article:tag" content="List"> 
 
     
         <meta property="article:published_time" content="8月 06, 2017" />
-        <meta property="article:modified_time" content="8月 08, 2017" />
+        <meta property="article:modified_time" content="8月 09, 2017" />
     
 
     <!-- The Twitter Card protocol -->
@@ -113,7 +113,7 @@
     "headline": "STL介绍之顺序性容器",
     "url": "http://yoursite.com/2017/08/06/STL_ sequence/index.html",
     "datePublished": "8月 06, 2017",
-    "dateModified": "8月 08, 2017",
+    "dateModified": "8月 09, 2017",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -144,19 +144,7 @@
         
             <style>
     
-    .footer-sns-facebook {
-        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgY2xhc3M9Imljb24iIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiPjxwYXRoIGQ9Ik0xMzguNiA3OGMtMjIuNCA1LjItNTUuOCA0MC4yLTYwLjYgNjMuNC0xLjQgNi40LTIgMTI5LjgtMS42IDM2Ny42LjYgMjk4LjYgMSAzNTguOCAzLjQgMzYzIDExIDIwLjIgMjEuNiAzMi40IDM3LjIgNDMgMTUgMTAuMiAxNy40IDExLjIgMzMgMTMgMTEuMiAxLjQgMTM2IDIgMzY1IDEuNiAzMTQtLjYgMzQ4LjYtMSAzNTUtMy44IDE1LjgtNy4yIDMzLjgtMjIgNDMuMi0zNS40IDUuMi03LjQgMTAuOC0xNi42IDEyLjYtMjAuNCAyLjgtNi40IDMuMi00MC44IDMuOC0zNTQgLjQtMjIzLS4yLTM1My40LTEuNC0zNjUtMi0xNy0yLjYtMTguNi0xMy0zNC04LjYtMTIuNi0xNC4yLTE4LjQtMjUuMi0yNS44LTcuOC01LjQtMTcuNC0xMS0yMS42LTEyLjQtNi0yLjItNzIuOC0yLjYtMzY1LjQtMi42LTE5Ni44LjItMzYxIC44LTM2NC40IDEuOHptNjU3LjYgODcuOGw0LjggMy44djU1LjJjMCA1NC42IDAgNTUuMi00LjYgNTkuNi00LjQgNC40LTYgNC42LTUwLjIgNS42bC00NS42IDEtNy4yIDUuNmMtMTAuNCA4LTE2LjggMTcuMi0xOS4yIDI3LjQtMSA1LTEuOCAyNC44LTEuOCA0NCAuMiAzOCAxLjYgNDQuNiAxMC44IDQ4IDIuOCAxLjIgMjguNCAyIDU2LjggMiA0Ny44IDAgNTIgLjIgNTYuMiAzLjhsNC44IDMuOHY1NS4yYzAgNTQuNiAwIDU1LjItNC42IDU5LjYtNC40IDQuNi01LjQgNC42LTU3IDUuMi0yOC44LjItNTQuNC44LTU2LjggMS40LTIuNC42LTUuNiAzLTYuOCA1LjQtMS44IDMuMi0yLjQgNDEuNC0yLjYgMTQzLjJsLS4yIDEzOC44LTUuNiA0LjgtNS42IDQuOEg2MDljLTUyLjQgMC01Mi44IDAtNTguMi00LjZsLTUuNC00LjYtLjItMTQwLjYtLjItMTQwLjYtNC44LTMuOGMtNC4yLTMuNC04LTMuOC0zNS42LTMuOC0zMi44IDAtNDEtMS44LTQzLjYtMTAtLjYtMi4yLTEuMi0yNS40LTEuMi01MS40IDAtNjAuOC0uMi01NyAzLjQtNjEuNiAyLjgtMy42IDYtNCAzNy44LTUgMzMtMSAzNS4yLTEuMiAzOS40LTUuNiA0LjYtNC40IDQuNi01LjIgNS44LTcxIDEuMi03My40LjItNjcuMiAxNi42LTk5LjQgOC0xNS44IDEyLjgtMjIgMjgtMzcgMTUuMi0xNS4yIDIxLjQtMTkuNiAzOC4yLTI4IDExLTUuNCAyNC0xMSAyOS0xMi4yIDYuMi0xLjggMjguNi0yLjYgNzEuMi0yLjYgNTguNi0uMiA2Mi42IDAgNjcgMy42eiIvPjwvc3ZnPg==);
-    }
     
-    
-    .footer-sns-twitter {
-        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgY2xhc3M9Imljb24iIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiPjxwYXRoIGQ9Ik0xMzguNiA3OGMtMjIuNCA1LjItNTUuOCA0MC4yLTYwLjYgNjMuNC0xLjQgNi40LTIgMTI5LjgtMS42IDM2Ny42LjYgMjk4LjYgMSAzNTguOCAzLjQgMzYzIDExIDIwLjIgMjEuNiAzMi40IDM3LjIgNDMgMTUgMTAuMiAxNy40IDExLjIgMzMgMTMgMTEuMiAxLjQgMTM2IDIgMzY1IDEuNiAzMTQtLjYgMzQ4LjYtMSAzNTUtMy44IDE1LjgtNy4yIDMzLjgtMjIgNDMuMi0zNS40IDUuMi03LjQgMTAuOC0xNi42IDEyLjYtMjAuNCAyLjgtNi40IDMuMi00MC44IDMuOC0zNTQgLjQtMjIzLS4yLTM1My40LTEuNC0zNjUtMi0xNy0yLjYtMTguNi0xMy0zNC04LjYtMTIuNi0xNC4yLTE4LjQtMjUuMi0yNS44LTcuOC01LjQtMTcuNC0xMS0yMS42LTEyLjQtNi0yLjItNzIuOC0yLjYtMzY1LjQtMi42LTE5Ni44LjItMzYxIC44LTM2NC40IDEuOHptNTMyLjggMjA1YzEwIDQgMjMgMTAuOCAyOC44IDE1LjIgMTIuNiA5LjIgMTYuNiAxMC42IDI5LjQgOS40IDYuNi0uNiAxMy0zLjIgMjAuNC04LjIgMTEuMi03LjYgMTkuNC05LjIgMjMuNi01IDMuNiAzLjYgMi44IDktMi44IDE4LjYtNy4yIDEyLjQtNiAxOC44IDQuMiAyNC4yIDQuNCAyLjIgOC4yIDUuNiA4LjYgNy40IDEgNC44LTEyLjYgMjQuMi0yMiAzMS44LTExLjggOS4yLTE3LjIgMjIuNi0xOS42IDQ3LjgtNC44IDUwLjQtNy44IDY2LjYtMTYuNCA4NS40LTMgNy03IDE3LjgtOC44IDI0LTEuOCA2LjQtNSAxNC42LTcuNCAxOC40LTIuMiAzLjgtNy40IDEzLTExLjQgMjAuNC0xNy4yIDMwLjgtNDMuNCA2MS40LTcxLjQgODMuOC0yNS42IDIwLjQtNDYgMzMuMi02NC4yIDQwLjItOC40IDMuMi0xOCA3LjYtMjEuNCA5LjYtNy40IDQuNi0yMi40IDguNi01Ny4yIDE1LTYyLjIgMTEuNi03OS4yIDExLjQtMTM1LjYtMS0zMi40LTctMzguNi05LTUyLTE2LjgtMjEuNC0xMi42LTI0LjItMTQuOC0yNC4yLTE5LjQgMC02LjIgMTAuMi05LjIgMzUtMTAuNCAyMi40LTEgMjguNi0yLjYgNTctMTQuMiAyMy44LTkuOCAyOS40LTEyLjggMzAuNC0xNi44IDIuMi04LjItMy0xMy4yLTI2LjgtMjUuNC0yNS44LTEzLjItMzIuMi0xOC40LTQzLjgtMzUuOC05LTEzLjYtMTAtMjEuMi0zLjYtMzMuNiA1LjQtMTAuOCAzLjYtMTUtMTEuOC0yNS40LTktNi0xNC0xMS42LTIwLjgtMjIuNi0yMy40LTM3LjgtMjUtNTAuOC03LjItNTkuOCA0LjgtMi40IDkuNC01LjQgMTAuMi02LjYgMi44LTQuMi0uNC0xNS42LTguNC0yOS0xMS42LTE5LjYtMTMuMi0yNS44LTEzLjItNTUuMiAwLTI4LjggMi42LTM3LjggMTItNDAuMiA5LTIuMiAxNC44IDEgMzUuNiAyMC4yIDI0LjggMjIuOCA0My42IDM2LjYgNjIuOCA0NS44IDggMy44IDE3LjggOS4yIDIyIDEyIDQuMiAyLjggMTQuOCA3IDIzLjQgOS4yIDguNiAyLjIgMjQuMiA2LjggMzQuOCAxMC4yIDEzLjQgNC40IDIzLjYgNi40IDMzIDYuNiAxMi44LjIgMTQuMi0uMiAxOC42LTUuNCA0LTQuOCA0LjgtNy44IDQuOC0xOS4yIDAtMTQuNCA1LjYtMzkuNiAxMS4yLTUwLjYgNC4yLTguNCAyOS4yLTM0LjIgMzkuOC00MS40IDcuOC01LjQgMzUuNi0xNiA1Mi0yMCAxNC4yLTMuNiAzMi42LTEuMiA1Mi40IDYuOHoiLz48L3N2Zz4=);
-    }
-    
-    
-    .footer-sns-gplus {
-        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgY2xhc3M9Imljb24iIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiPjxwYXRoIGQ9Ik0xMzguNiA3OGMtMjIuNCA1LjItNTUuOCA0MC4yLTYwLjYgNjMuNC0xLjQgNi40LTIgMTI5LjgtMS42IDM2Ny42LjYgMjk4LjYgMSAzNTguOCAzLjQgMzYzIDExIDIwLjIgMjEuNiAzMi40IDM3LjIgNDMgMTUgMTAuMiAxNy40IDExLjIgMzMgMTMgMTEuMiAxLjQgMTM2IDIgMzY1IDEuNiAzMTQtLjYgMzQ4LjYtMSAzNTUtMy44IDE1LjgtNy4yIDMzLjgtMjIgNDMuMi0zNS40IDUuMi03LjQgMTAuOC0xNi42IDEyLjYtMjAuNCAyLjgtNi40IDMuMi00MC44IDMuOC0zNTQgLjQtMjIzLS4yLTM1My40LTEuNC0zNjUtMi0xNy0yLjYtMTguNi0xMy0zNC04LjYtMTIuNi0xNC4yLTE4LjQtMjUuMi0yNS44LTcuOC01LjQtMTcuNC0xMS0yMS42LTEyLjQtNi0yLjItNzIuOC0yLjYtMzY1LjQtMi42LTE5Ni44LjItMzYxIC44LTM2NC40IDEuOHpNNDMwIDI5NS40YzQwLjYgMTUuNCA1Ni42IDIzLjggNzIuNiAzOC40IDYuOCA2LjIgNy4yIDE1LjIgMSAyMy40LTYuMiA4LTMzLjYgMzMuOC0zOSAzNi42LTUuNiAyLjgtMTcuNiAyLjgtMjMuMi0uMi0yLjQtMS4yLTguMi01LjItMTMtOC44LTExLjItOC42LTI0LjYtMTEuMi01NS4yLTExLjItMjcuNCAwLTQwLjYgMi42LTUyLjIgMTAuNC00LjQgMi44LTEyLjIgNy42LTE3LjIgMTAuNi0yMyAxMy4yLTUxLjQgNTUtNTUuOCA4Mi40LTIuNiAxNS42LTIuNCAzNC44LjIgNTEgMi44IDE3LjQgMTkuOCA0OC44IDM1LjIgNjUuMiAxNiAxNi42IDQ1IDMzLjYgNjIuOCAzNi42IDI2LjggNC40IDY1LjggMS42IDc5LjQtNS44IDIwLjYtMTEuNCAzMS0xOSA0MS0zMC40IDE4LjgtMjEuNiAyMy40LTM0LjIgMTUuNi00My44LTMuOC00LjgtNC40LTQuOC01MS01LjgtNjAuOC0xLjItNTYuMiAyLjItNTYuMi00My4yIDAtMzIuNC4yLTMzLjIgNC44LTM3IDQuNC0zLjYgOS0zLjggOTItMy44IDc5IDAgODcuOC40IDk0LjIgMy42IDExLjIgNS42IDEzIDExLjQgMTIuOCA0My40IDAgMjUuNC0uOCAzMC44LTcuNiA1OC00IDE2LjYtOS44IDM0LTEyLjYgMzktMi44IDUtOC4yIDE0LjItMTEuNiAyMC42LTguNCAxNS40LTI3LjIgMzYuOC00MC44IDQ2LjYtNS44IDQuNC0xMy44IDEwLjItMTcuNiAxMy4yLTMuOCAzLTExIDctMTYuMiA4LjgtNS4yIDEuOC0xNi4yIDYuNC0yNC40IDEwLTIyLjQgOS42LTM0LjggMTEuNi03MyAxMS42LTM3LjYuMi00Ny0xLjQtNzEtMTItOC4yLTMuNi0xNy42LTcuMi0yMC44LTgtMTUuOC0zLjgtNjctNDUuMi03Ny44LTYyLjgtMi4yLTMuOC03LjYtMTEuNi0xMS44LTE3LjItNC4yLTUuNC05LTE0LTEwLjYtMTktMS44LTQuOC02LjItMTYtMTAtMjQuOC0zLjYtOC44LTcuOC0yMi4yLTkuMi0yOS42LTMuMi0xOC44LTEuNC03OS40IDIuOC05MS40IDEzLjgtNDAuNiAzNS42LTc4IDU4LjgtMTAwLjIgMTQtMTMuNiA0Ny4yLTM2LjQgNTgtMzkuOCA0LjItMS40IDEzLjQtNS4yIDIwLjYtOC40IDIyLTEwIDMyLjgtMTEuNiA3Ni0xMSAzMy44LjYgNDAuNCAxLjIgNTAgNC44em0zNDAuOCA4MC44YzggMy42IDkuNiAxMS4yIDkuMiAzOS4yLS42IDM0LjQtLjYgMzQgNSAzOS42IDQuOCA1IDUuNCA1IDM3LjYgNSA0My40IDAgNDQuNC44IDQzLjIgMzYuMi0uOCAxNy0xLjIgMTguNC02LjQgMjMtNS40IDQuNi02LjYgNC44LTM3LjYgNC44LTMxLjIgMC0zMiAuMi0zNi44IDUtNS42IDUuNC01LjYgNC40LTUgNDEuMi40IDI2LjQuMiAyNy40LTQuNiAzMy00LjggNS42LTYgNS44LTI0LjQgNi40LTIwLjguOC0yOS42LTEuNC0zMy40LTguNC0xLjQtMi42LTItMTUuNi0xLjgtMzUuNi40LTMxLjIuNC0zMS42LTQuNi0zNi42cy01LjYtNS0zNi01Yy0xOC44IDAtMzMtLjgtMzYtMi4yLTcuNi0zLjYtOS42LTExLjItOC44LTMzLjguOC0yOC4yLjQtMjggNDEtMjggNDUuNCAwIDQ1LjQgMCA0NC42LTQyLjYtLjYtMzMtLjYtMzMgNS0zOC40IDQuNC00LjYgNi4yLTUgMjQuOC01IDExIDAgMjIuMiAxIDI1IDIuMnoiLz48L3N2Zz4=);
-    }
     
     
     
@@ -240,12 +228,7 @@
 
     <style>
       body{
-        background-color: #F5F5F5;
-      }
-
-      /* blog_info bottom background */
-      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
-        background-color: #fff;
+        background-image: url(/img/bg.png);
       }
     </style>
 
@@ -336,7 +319,7 @@
 
     
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#顺序性容器-sequence-containers"><span class="post-toc-number">1.</span> <span class="post-toc-text">顺序性容器 sequence containers</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Vector"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">Vector</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#介绍"><span class="post-toc-number">1.1.1.</span> <span class="post-toc-text">介绍</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#操作"><span class="post-toc-number">1.1.2.</span> <span class="post-toc-text">操作</span></a></li></ol></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#顺序性容器-sequence-containers"><span class="post-toc-number">1.</span> <span class="post-toc-text">顺序性容器 sequence containers</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Vector"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">Vector</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#介绍"><span class="post-toc-number">1.1.1.</span> <span class="post-toc-text">介绍</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#操作"><span class="post-toc-number">1.1.2.</span> <span class="post-toc-text">操作</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#List"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">List</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#介绍-1"><span class="post-toc-number">1.2.1.</span> <span class="post-toc-text">介绍</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#操作-1"><span class="post-toc-number">1.2.2.</span> <span class="post-toc-text">操作</span></a></li></ol></li></ol></li></ol>
         <!--
         <li class="mdl-menu__item">
             Some Action
@@ -361,17 +344,8 @@
                 
     <!-- Paradox Post Header -->
     
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-            <script type="text/ls-javascript" id="post-thumbnail-script">
-    var randomNum = Math.floor(Math.random() * 19 + 1);
-
-    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-</script>
-
-        
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://cdn.lynda.com/course/182674/182674-636223296097798619-16x9.jpg)">
     
             <p class="article-headline-p">
                 STL介绍之顺序性容器
@@ -417,7 +391,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        
+        <a class="post_tag-link" href="/tags/C/">C++</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/List/">List</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/STL/">STL</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/Vector/">Vector</a>
     </ul>
     
 
@@ -486,6 +460,108 @@
     
         <p>STL是C/C++中十分重要的模版之一，对于刷题和简单的数据结构实现都是一把利器，在STL中常用的容器有：<br>&emsp;&emsp;<strong>Sequence containers</strong>: vector, deque, and list<br>&emsp;&emsp;<strong>Associative containers</strong>: set, multiset, map, multimap, unordered_set and unordered_map<br>&emsp;&emsp;<strong>Container adaptors</strong>: queue, priority_queue, and stack<br>本文着重介绍顺序性容器的一些特性和操作。</p>
 <h2 id="顺序性容器-sequence-containers"><a href="#顺序性容器-sequence-containers" class="headerlink" title="顺序性容器 sequence containers"></a>顺序性容器 sequence containers</h2><h3 id="Vector"><a href="#Vector" class="headerlink" title="Vector"></a>Vector</h3><h4 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h4><p>vector是一个动态的数组，它会在内存申请一个连续的空间进行存储。它的优点在于在未知数据规模时，它可以自动申请空间，由于它支持随机访问，所以查询操作效率很高。对于小规模数据是个不错的选择，为什么说对于小规模数据呢？这时不得不说说他的缺点：由于是连续存储空间，所以插入和删除操作效率较低，第二点，vector动态申请空间是以2指数级申请不足的空间，当数据量大时空间消耗比较大，性能下降。第三点，调用clear之后，内存不会释放(需要用swap代替clear去释放空间)</p>
+<table>
+<thead>
+<tr>
+<th><strong>成员函数</strong></th>
+<th><strong>说明</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Constructors</td>
+<td>构造函数</td>
+</tr>
+<tr>
+<td>Operators</td>
+<td>对vector进行赋值或比较</td>
+</tr>
+<tr>
+<td>assign()</td>
+<td>对Vector中的元素赋值</td>
+</tr>
+<tr>
+<td>at()</td>
+<td>返回指定位置的元素</td>
+</tr>
+<tr>
+<td>back()</td>
+<td>返回最末一个元素</td>
+</tr>
+<tr>
+<td>begin()</td>
+<td>返回第一个元素的迭代器</td>
+</tr>
+<tr>
+<td>capacity()</td>
+<td>返回vector所能容纳的元素数量(在不重新分配内存的情况下)</td>
+</tr>
+<tr>
+<td>clear()</td>
+<td>清空所有元素</td>
+</tr>
+<tr>
+<td>empty()</td>
+<td>判断Vector是否为空（返回true时为空）</td>
+</tr>
+<tr>
+<td>end()</td>
+<td>返回最末元素的迭代器(译注:实指向最末元素的下一个位置)</td>
+</tr>
+<tr>
+<td>erase()</td>
+<td>删除指定元素</td>
+</tr>
+<tr>
+<td>front()</td>
+<td>返回第一个元素</td>
+</tr>
+<tr>
+<td>get_allocator()</td>
+<td>返回vector的内存分配器</td>
+</tr>
+<tr>
+<td>insert()</td>
+<td>插入元素到Vector中</td>
+</tr>
+<tr>
+<td>max_size()</td>
+<td>返回Vector所能容纳元素的最大数量（上限）</td>
+</tr>
+<tr>
+<td>pop_back()</td>
+<td>移除最后一个元素</td>
+</tr>
+<tr>
+<td>push_back()</td>
+<td>在Vector最后添加一个元素</td>
+</tr>
+<tr>
+<td>rbegin()</td>
+<td>返回Vector尾部的逆迭代器</td>
+</tr>
+<tr>
+<td>rend()</td>
+<td>返回Vector起始的逆迭代器</td>
+</tr>
+<tr>
+<td>reserve()</td>
+<td>设置Vector最小的元素容纳数量</td>
+</tr>
+<tr>
+<td>resize()</td>
+<td>改变Vector元素数量的大小</td>
+</tr>
+<tr>
+<td>size()</td>
+<td>返回Vector元素数量的大小</td>
+</tr>
+<tr>
+<td>swap()</td>
+<td>交换两个Vector</td>
+</tr>
+</tbody>
+</table>
 <h4 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h4><p>1.&emsp;vector初始化</p>
 <pre class="line-numbers language-cpp"><code class="language-cpp">vector<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">></span> a_0<span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">// 初始化空数组</span>
 vector<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">></span> <span class="token function">a_1</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 初始化10个0的数组</span>
@@ -527,6 +603,194 @@ cout <span class="token operator">&lt;&lt;</span> array<span class="token punctu
 a_1<span class="token punctuation">.</span><span class="token function">swap</span><span class="token punctuation">(</span>a_0<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">//交换两个数组</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p>More info : <a href="http://www.cplusplus.com/reference/vector/vector/" target="_blank" rel="external">Vector</a></p>
+<h3 id="List"><a href="#List" class="headerlink" title="List"></a>List</h3><h4 id="介绍-1"><a href="#介绍-1" class="headerlink" title="介绍"></a>介绍</h4><p>list在STL中是一个双向链表，它可以高速的进行元素的插入和删除， 但是它不支持随机访问。</p>
+<table>
+<thead>
+<tr>
+<th><strong>成员函数</strong></th>
+<th><strong>说明</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>constructor</td>
+<td>构造函数</td>
+</tr>
+<tr>
+<td>destructor</td>
+<td>析构函数</td>
+</tr>
+<tr>
+<td>operator=</td>
+<td>赋值重载运算符</td>
+</tr>
+<tr>
+<td>assign</td>
+<td>分配值</td>
+</tr>
+<tr>
+<td>front</td>
+<td>返回第一个元素的引用</td>
+</tr>
+<tr>
+<td>back</td>
+<td>返回最后一元素的引用</td>
+</tr>
+<tr>
+<td>begin</td>
+<td>返回第一个元素的指针(iterator)</td>
+</tr>
+<tr>
+<td>end</td>
+<td>返回最后一个元素的下一位置的指针</td>
+</tr>
+<tr>
+<td>rbegin</td>
+<td>返回链表最后一元素的后向指针(reverse_iterator or const)</td>
+</tr>
+<tr>
+<td>rend</td>
+<td>返回链表第一元素的下一位置的后向指针</td>
+</tr>
+<tr>
+<td>push_back</td>
+<td>增加一元素到链表尾</td>
+</tr>
+<tr>
+<td>push_front</td>
+<td>增加一元素到链表头</td>
+</tr>
+<tr>
+<td>pop_back</td>
+<td>删除链表尾的一个元素</td>
+</tr>
+<tr>
+<td>pop_front</td>
+<td>删除链表头的一元素</td>
+</tr>
+<tr>
+<td>clear</td>
+<td>删除所有元素</td>
+</tr>
+<tr>
+<td>erase</td>
+<td>删除一个元素或一个区域的元素(两个重载)</td>
+</tr>
+<tr>
+<td>remove</td>
+<td>删除链表中匹配值的元素(匹配元素全部删除)</td>
+</tr>
+<tr>
+<td>remove_if</td>
+<td>删除条件满足的元素(遍历一次链表)，参数为自定义的回调函数</td>
+</tr>
+<tr>
+<td>empty</td>
+<td>判断是否链表为空</td>
+</tr>
+<tr>
+<td>max_size</td>
+<td>返回链表最大可能长度</td>
+</tr>
+<tr>
+<td>size</td>
+<td>返回链表中元素个数</td>
+</tr>
+<tr>
+<td>resize</td>
+<td>重新定义链表长度(两重载函数)</td>
+</tr>
+<tr>
+<td>reverse</td>
+<td>反转链表</td>
+</tr>
+<tr>
+<td>sort</td>
+<td>对链表排序，默认升序</td>
+</tr>
+<tr>
+<td>merge</td>
+<td>合并两个有序链表并使之有序</td>
+</tr>
+<tr>
+<td>splice</td>
+<td>对两个链表进行结合(三个重载函数) 结合后第二个链表清空</td>
+</tr>
+<tr>
+<td>insert</td>
+<td>在指定位置插入一个或多个元素(三个重载函数)</td>
+</tr>
+<tr>
+<td>swap</td>
+<td>交换两个链表(两个重载)</td>
+</tr>
+<tr>
+<td>unique</td>
+<td>删除相邻重复元素</td>
+</tr>
+</tbody>
+</table>
+<h4 id="操作-1"><a href="#操作-1" class="headerlink" title="操作"></a>操作</h4><p>1.&emsp;list初始化</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp">list <span class="token operator">&lt;</span><span class="token keyword">int</span> <span class="token operator">></span> L0 <span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">// 空链表</span>
+list <span class="token operator">&lt;</span><span class="token keyword">int</span> <span class="token operator">></span> <span class="token function">L1</span> <span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment" spellcheck="true">// 初始化一个含10个默认值是的元素的链表</span>
+list <span class="token operator">&lt;</span><span class="token keyword">int</span> <span class="token operator">></span> <span class="token function">L2</span> <span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// 初始化一个含20个元素的链表，值都是1</span>
+list <span class="token operator">&lt;</span><span class="token keyword">int</span> <span class="token operator">></span> <span class="token function">L3</span> <span class="token punctuation">(</span>L2<span class="token punctuation">)</span><span class="token punctuation">;</span>       <span class="token comment" spellcheck="true">// 初始化一个L2的copy链表</span>
+list <span class="token operator">&lt;</span><span class="token keyword">int</span> <span class="token operator">></span> <span class="token function">L4</span> <span class="token punctuation">(</span>L0<span class="token punctuation">.</span><span class="token function">begin</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> L0<span class="token punctuation">.</span><span class="token function">end</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">// 初始化一个含 L0 一个区域的元素</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>2.&emsp;vector特性</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp">cout <span class="token operator">&lt;&lt;</span> L1<span class="token punctuation">.</span><span class="token function">empty</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>    <span class="token comment" spellcheck="true">// 判断链表是否为空</span>
+cout <span class="token operator">&lt;&lt;</span> L1<span class="token punctuation">.</span><span class="token function">max_size</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 返回一个链表可能的最大长度</span>
+cout <span class="token operator">&lt;&lt;</span> L1<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>     <span class="token comment" spellcheck="true">// 返回链表现有元素的个数</span>
+L1<span class="token punctuation">.</span><span class="token function">resize</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>      <span class="token comment" spellcheck="true">// 重新定义链表长度，空的位置用默认值0代替</span>
+L1<span class="token punctuation">.</span><span class="token function">resize</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment" spellcheck="true">// 重新定义链表长度，空的位置用值为5的元素代替</span>
+L1<span class="token punctuation">.</span><span class="token function">resize</span><span class="token punctuation">(</span><span class="token number">25</span><span class="token punctuation">)</span><span class="token punctuation">;</span>      <span class="token comment" spellcheck="true">// 如果重新定义个长度比原来的链表短，相当于删除后面的元素</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>3.&emsp;遍历</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp">list <span class="token operator">&lt;</span> <span class="token keyword">int</span> <span class="token operator">></span> <span class="token operator">::</span>iterator it<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//用迭代器遍历链表</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span>it <span class="token operator">=</span> L1<span class="token punctuation">.</span><span class="token function">begin</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> it <span class="token operator">!=</span> L1<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token operator">++</span>it<span class="token punctuation">)</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token operator">*</span>it <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>4.&emsp;赋值</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp">L1<span class="token punctuation">.</span><span class="token function">assign</span> <span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>     <span class="token comment" spellcheck="true">// 把L1赋值成含5个元素的链表，值都是5</span>
+L1<span class="token punctuation">.</span><span class="token function">assign</span><span class="token punctuation">(</span>L1<span class="token punctuation">.</span><span class="token function">begin</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> L2<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment" spellcheck="true">// 把L1赋值成含L2一个区域的元素的链表</span>
+L1 <span class="token operator">=</span> L2<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// L1赋值成L2</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>5.&emsp;插入</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp">L1<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span>L1<span class="token punctuation">.</span><span class="token function">begin</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// 在L1的第2个位置插入1个值为10的元素</span>
+L1<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span>L1<span class="token punctuation">.</span><span class="token function">begin</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment" spellcheck="true">// 在L1的第1个位置插入5个值为10的元素</span>
+L1<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span>L1<span class="token punctuation">.</span><span class="token function">begin</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>L2<span class="token punctuation">.</span><span class="token function">begin</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> L2<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 在L1的第1个位置插入L2一个区域的元素</span>
+L1<span class="token punctuation">.</span><span class="token function">push_front</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 在L1最前面插入1个值为10的元素</span>
+L1<span class="token punctuation">.</span><span class="token function">push_back</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// 在L1最后面插入1个值为10的元素</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>6.&emsp;删除</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp">L1<span class="token punctuation">.</span><span class="token function">pop_back</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment" spellcheck="true">// 删除最后一个元素</span>
+L1<span class="token punctuation">.</span><span class="token function">pop_front</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment" spellcheck="true">// 删除第一个元素</span>
+L1<span class="token punctuation">.</span><span class="token function">erase</span><span class="token punctuation">(</span>L1<span class="token punctuation">.</span><span class="token function">begin</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment" spellcheck="true">// 删除第一个元素</span>
+L1<span class="token punctuation">.</span><span class="token function">erase</span><span class="token punctuation">(</span>L1<span class="token punctuation">.</span><span class="token function">begin</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> L1<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// list1(1) // 删除一个区域的元素</span>
+L1<span class="token punctuation">.</span><span class="token function">remove</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 删除链表里所有值为10的元素</span>
+
+<span class="token keyword">bool</span> <span class="token function">function</span> <span class="token punctuation">(</span><span class="token keyword">const</span> <span class="token keyword">int</span> <span class="token operator">&amp;</span> val <span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> val <span class="token operator">></span> <span class="token number">5</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+L1<span class="token punctuation">.</span><span class="token function">remove_if</span><span class="token punctuation">(</span>function<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment" spellcheck="true">// 自定义删除：删除所有值大于5的元素 </span>
+
+L1<span class="token punctuation">.</span><span class="token function">unique</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 删除相邻重复元素</span>
+L1<span class="token punctuation">.</span><span class="token function">clear</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// 删除所有元素</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>7.&emsp;获取元素值</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp">cout <span class="token operator">&lt;&lt;</span> L1<span class="token punctuation">.</span><span class="token function">front</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 返回链表第一个元素的值</span>
+cout <span class="token operator">&lt;&lt;</span> l1<span class="token punctuation">.</span><span class="token function">back</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// 返回链表最后一个元素的值</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>8.&emsp;其他操作</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp">L1<span class="token punctuation">.</span><span class="token function">reverse</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                 <span class="token comment" spellcheck="true">// 链表翻转</span>
+L1<span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                  <span class="token comment" spellcheck="true">// 链表元素排序 升序</span>
+L1<span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span>greater<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// 链表元素排序 降序</span>
+L1<span class="token punctuation">.</span><span class="token function">merge</span><span class="token punctuation">(</span>L2<span class="token punctuation">)</span><span class="token punctuation">;</span>                 <span class="token comment" spellcheck="true">// 合并两个有序链表 升序</span>
+L1<span class="token punctuation">.</span><span class="token function">merge</span><span class="token punctuation">(</span>L2<span class="token punctuation">,</span> greater<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 合并两个有序链表 降序</span>
+L1<span class="token punctuation">.</span><span class="token function">swap</span><span class="token punctuation">(</span>L2<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 交换两个链表</span>
+L1<span class="token punctuation">.</span><span class="token function">splice</span><span class="token punctuation">(</span>L1<span class="token punctuation">.</span><span class="token function">begin</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> L2<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// 合并两个链表，插入位置为L1的开始，此时L2链表为空</span>
+L1<span class="token punctuation">.</span><span class="token function">splice</span><span class="token punctuation">(</span>L1<span class="token punctuation">.</span><span class="token function">begin</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> L2<span class="token punctuation">,</span> L2<span class="token punctuation">.</span><span class="token function">begin</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 合并两个链表，插入位置为L1的第2个位置，插入L2的开始第一个元素， 此时L2链表少第一个元素</span>
+L1<span class="token punctuation">.</span><span class="token function">splice</span><span class="token punctuation">(</span> L1<span class="token punctuation">.</span><span class="token function">begin</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> L2<span class="token punctuation">,</span> L2<span class="token punctuation">.</span><span class="token function">begin</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> L2<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//合并两个链表，插入位置为L1的第2个位置，插入L2的一个区域的元素， 此时L2链表少这片区域的元素</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>More info : <a href="http://www.cplusplus.com/reference/list/list/" target="_blank" rel="external">List</a></p>
 
     
 
@@ -546,13 +810,21 @@ a_1<span class="token punctuation">.</span><span class="token function">swap</sp
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
+        <a href="/2017/08/06/C++_string/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2017/08/06/C++_string/" id="post_nav-older" class="next-content">
+        <a href="/2017/08/06/hello-world/" id="post_nav-older" class="next-content">
             旧篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
@@ -608,7 +880,7 @@ a_1<span class="token punctuation">.</span><span class="token function">swap</sp
         <ul id="settings-dropdown" class="dropdown-menu">
             
                 <li>
-                    <a href="#" target="_blank" title="Email Me">
+                    <a href="mailto:zhmiuozmz@gmail.com" target="_blank" title="Email Me">
                         
                             <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
                         
@@ -634,29 +906,59 @@ a_1<span class="token punctuation">.</span><span class="token function">swap</sp
 
     <!-- Archives  -->
     
+
+    <!-- Categories  -->
+    
         <li class="dropdown">
             <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
                 
-                    <i class="material-icons sidebar-material-icons">inbox</i>
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
                 
-                    归档
+                分类
                 <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
-            <li>
-                <a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">3</span></a>
+                <li>
+                <a class="sidebar_archives-link" href="/categories/Programming-language/">Programming language<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         
-    
-
-    <!-- Categories  -->
+            <li class="divider"></li>
+        
     
 
     <!-- Pages  -->
     
+        <li>
+            <a href="/tags" title="标签云">
+                
+                    <i class="material-icons sidebar-material-icons">cloud_circle</i>
+                
+                标签云
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/timeline" title="Timeline">
+                
+                    <i class="material-icons sidebar-material-icons">send</i>
+                
+                Timeline
+            </a>
+        </li>
+        
+    
 
     <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">3</span>
+            </a>
+        </li>
+        
     
 </ul>
 
@@ -728,29 +1030,11 @@ It will not impact the appearance and can give developers a lot of support :)
         <div class="mdl-mini-footer--left-section sns-list">
     <!-- Twitter -->
     
-        <a href="https://twitter.com/twitter" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
-                <span class="visuallyhidden">Twitter</span>
-            </button><!--
-     --></a>
-    
 
     <!-- Facebook -->
     
-        <a href="https://www.facebook.com/facebook" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn footer-sns-facebook">
-                <span class="visuallyhidden">Facebook</span>
-            </button><!--
-     --></a>
-    
 
     <!-- Google + -->
-    
-        <a href="https://www.google.com/" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn footer-sns-gplus">
-                <span class="visuallyhidden">Google Plus</span>
-            </button><!--
-     --></a>
     
 
     <!-- Weibo -->
