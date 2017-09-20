@@ -1,2 +1,2 @@
-# [This is my blog](minzhuo.github.io)
+# [This is my blog](https://minzhuo.github.io./)
 
